@@ -72,7 +72,7 @@ a {
   background-size: cover;
 
   div {
-    font-size: 35px;
+    font-size: 36px;
   }
 }
 
