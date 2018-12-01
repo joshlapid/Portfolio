@@ -1,7 +1,5 @@
 <template>
   <div id="app">
-    <!-- <router-link v-bind:to="'/'">Home</router-link>
-    <router-link v-bind:to="'/about'">About</router-link><br> -->
     <router-view/>
   </div>
 </template>
@@ -13,15 +11,27 @@ export default {
 </script>
 
 <style>
-body {
-  margin: 0px;
-}
+  body {
+    margin: 0px;
+    font-size: 20px;
+  }
 
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+  h1 {
+    font-size: 3em;
+    margin-bottom: .3em;
+  }
+
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+  }
+
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 2em;
+    }
+  }
 </style>
