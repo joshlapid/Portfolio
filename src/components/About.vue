@@ -32,7 +32,8 @@ export default {
 	.page {
 		background: #144057;
 		color: #ffffff;
-		height: 100vh;
+		height: 100%;
+		min-height: 100vh;
 	}
 
 	.back-icon {

@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper page">
 
     <router-link v-bind:to="'/about'" class="home-link">
       <section id="about">
@@ -67,6 +67,13 @@
     background-image: url('../assets/headshot.jpg');
     background-position: center;
     background-size: cover;
+
+    .section-header {
+      position: absolute;
+      bottom: 60px;
+      background: #000000;
+      width: inherit;
+    }
   }
 
 
@@ -105,6 +112,13 @@
     .right-boxes div {
       width: 100%;
       height: 33vh;
+    }
+
+    #about {
+      .section-header {
+        position: static;
+        background: none;
+      }
     }
 
   }
