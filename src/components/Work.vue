@@ -20,6 +20,8 @@ export default {
   return {
     projects: [
     	{ name: 'Atlanta Pet Fair', url: 'https://atlantapetfair.org/', image: require('../assets/apfc.jpg')},
+    	{ name: 'U.S. News HoT', url: 'https://www.usnewshot.com/', image: require('../assets/usnewshot.jpg')},
+    	{ name: 'Vue Some Gifs', url: 'http://gifs.joshlapid.com/', image: require('../assets/gifs.jpg')},
     	{ name: 'Corrao Group', url: 'http://corraogroup.com/', image: require('../assets/corrao.jpg')},
     	{ name: 'Craft Beverage Expo', url: 'https://www.craftbeverageexpo.com/', image: require('../assets/craft.jpg')},
     	{ name: 'Pokemon Index', url: 'https://herokupoke.herokuapp.com/search/all', image: require('../assets/pokemon.png')}
@@ -31,6 +33,7 @@ export default {
 <!-- styling for the component -->
 <style lang="scss" scoped>
 	.page {
+		position: static;
 		background: #333333;
 		color: #ffffff;
 		height: 100%;
