@@ -30,6 +30,7 @@ export default {
 <!-- styling for the component -->
 <style lang="scss" scoped>
 	.page {
+		position: static;
 		background: #144057;
 		color: #ffffff;
 		height: 100%;
