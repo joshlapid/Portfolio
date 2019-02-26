@@ -10,8 +10,12 @@
 	  			<i class="devicon-css3-plain-wordmark skills_icon"></i>
 			    <i class="devicon-html5-plain-wordmark skills_icon"></i>
 			    <i class="devicon-javascript-plain skills_icon"></i>
+			    <i class="devicon-nodejs-plain"></i>
+			    <i class="devicon-mongodb-plain"></i>
+			    <i class="devicon-express-original"></i>
 			    <i class="devicon-vuejs-plain-wordmark"></i>
 			    <i class="devicon-sass-original skills_icon"></i>
+			    <i class="devicon-gulp-plain"></i>
 			    <i class="devicon-bootstrap-plain-wordmark skills_icon"></i>
 			    <i class="devicon-wordpress-plain"></i>
 			    <i class="devicon-php-plain skills_icon"></i>
